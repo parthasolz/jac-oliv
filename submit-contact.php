@@ -27,9 +27,9 @@ require __DIR__ . '/vendor/autoload.php';
 // $dbPass = '';
 
 $dbHost = 'localhost';
-$dbName = 'u959656367_db_jac';
-$dbUser = 'u959656367_un_jac';
-$dbPass = '~rbYJN7V';
+$dbName = 'u959656367_dbjac';
+$dbUser = 'u959656367_unjac';
+$dbPass = '>fU5m9>E3fk';
 
 
 /*
@@ -637,7 +637,7 @@ try {
                             ">
 
                             <img
-                                src="https://brandaid.digital/proposals/jac-olivol/new/html/images/jack-olivol.webp"
+                                src="https://jacolivolgroup.com/images/jack-olivol.webp"
                                 alt="Jac Olivol"
                                 style="
                                     max-width:220px;

@@ -1,7 +1,7 @@
 
     /* ── HERO BACKGROUND ── */
     .phil-hero {
-      background-image: url('https://brandaid.digital/proposals/jac-olivol/new/html/images/hero-bg.webp');
+      background-image: url('../images/hero-bg.webp');
     }
 
     /* ── BELIEF SPLIT — large image left, text right ── */

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="index, follow">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
   <nav class="navbar-custom" id="mainNav">
     <div class="container d-flex align-items-center justify-content-between">
       <a href="./" class="logo-box">
-        <img src="https://brandaid.digital/proposals/jac-olivol/new/html/images/jack-olivol.webp" alt="Jac Olivol">
+        <img src="./images/jack-olivol.webp" alt="Jac Olivol">
       </a>
       <ul class="navbar-nav d-none d-lg-flex flex-row align-items-center">
         <li class="nav-item has-dd">
@@ -69,33 +69,33 @@
     <div class="hero-inner-clip">
       <div class="hero-slide active" id="slide-0">
         <video class="hero-slide-bg hero-slide-video" autoplay muted loop playsinline preload="auto">
-          <source src="https://brandaid.digital/proposals/jac-olivol/new/html/videos/banner-video-JAC-OLIVOL.mp4"
+          <source src="./videos/banner-video-JAC-OLIVOL.mp4"
             type="video/mp4">
         </video>
       </div>
       <!-- <div class="hero-slide" id="slide-1">
         <div class="hero-slide-bg"
-          style="background-image:url('https://brandaid.digital/proposals/jac-olivol/new/html/images/banner2.webp')">
+          style="background-image:url('./images/banner2.webp')">
         </div>
       </div>
       <div class="hero-slide" id="slide-2">
         <div class="hero-slide-bg"
-          style="background-image:url('https://brandaid.digital/proposals/jac-olivol/new/html/images/banner3.webp')">
+          style="background-image:url('./images/banner3.webp')">
         </div>
       </div> -->
     </div>
     <div id="heroSlideData" style="display:none;">
       <div data-sub="" data-h1="" data-desc=""
-        data-img="https://brandaid.digital/proposals/jac-olivol/new/html/images/hero-img.webp"
-        data-video="https://brandaid.digital/proposals/jac-olivol/new/html/videos/banner-video-JAC-OLIVOL"></div>
+        data-img="./images/hero-img.webp"
+        data-video="./videos/banner-video-JAC-OLIVOL"></div>
       <!-- <div data-sub="Growing Responsibly" data-h1="Thoughtful Care, Lasting Impact"
         data-desc="We believe responsible growth begins with thoughtful choices - creating products that deliver trusted care while remaining mindful of the people and communities we serve."
-        data-img="https://brandaid.digital/proposals/jac-olivol/new/html/images/hero-img2.webp"
-        data-video="https://brandaid.digital/proposals/jac-olivol/new/html/videos/Jac-Olivol-Round-The-Year-Soft-Smooth-and-Glowing-Healthy-Skin.mp4">
+        data-img="./images/hero-img2.webp"
+        data-video="./videos/Jac-Olivol-Round-The-Year-Soft-Smooth-and-Glowing-Healthy-Skin.mp4">
       </div>
       <div data-sub="Pure Quality Delivered" data-h1="Old Wisdom, Refined for Today"
         data-desc="Rooted in generations of olive care and enhanced by modern innovation, our products are designed to deliver trusted wellness in forms that are convenient, effective, and easy to embrace every day."
-        data-img="https://brandaid.digital/proposals/jac-olivol/new/html/images/hero-img3.webp" data-video=""></div> -->
+        data-img="./images/hero-img3.webp" data-video=""></div> -->
     </div>
     <div class="dot-pattern" style="bottom:170px;right:32px;z-index:3;"></div>
     <div class="dot-pattern" style="top:32%;left:-28px;z-index:3;width:115px;height:190px;"></div>
@@ -166,7 +166,7 @@
           <div class="inno-track" id="innoTrack">
             <a href="javascript:void(0)" class="inno-item">
               <div class="inno-img"><img
-                  src="https://brandaid.digital/proposals/jac-olivol/new/html/images/advanced-extraction.webp"
+                  src="./images/advanced-extraction.webp"
                   alt="Advanced Extraction"></div>
               <div class="inno-body">
                 <div class="inno-icon"><i class="fa-solid fa-gear"></i></div>
@@ -177,7 +177,7 @@
               </div>
             </a>
             <a href="javascript:void(0)" class="inno-item">
-              <div class="inno-img"><img src="https://brandaid.digital/proposals/jac-olivol/new/html/images/care.webp"
+              <div class="inno-img"><img src="./images/care.webp"
                   alt="Smart Quality Control"></div>
               <div class="inno-body">
                 <div class="inno-icon"><i class="fa-solid fa-shield-heart"></i></div>
@@ -189,7 +189,7 @@
             </a>
             <a href="javascript:void(0)" class="inno-item">
               <div class="inno-img"><img
-                  src="https://brandaid.digital/proposals/jac-olivol/new/html/images/Innovation.webp"
+                  src="./images/Innovation.webp"
                   alt="Sustainable Production"></div>
               <div class="inno-body">
                 <div class="inno-icon"><i class="fa-solid fa-shield-alt"></i></div>
@@ -201,7 +201,7 @@
             </a>
             <a href="javascript:void(0)" class="inno-item">
               <div class="inno-img"><img
-                  src="https://brandaid.digital/proposals/jac-olivol/new/html/images/quality.webp" alt="Quality"></div>
+                  src="./images/quality.webp" alt="Quality"></div>
               <div class="inno-body">
                 <div class="inno-icon"><i class="fa-solid fa-shield-alt"></i></div>
                 <h3>Quality</h3><span class="inno-line"></span>
@@ -235,27 +235,27 @@
       <div class="sustain-wrap">
         <div class="sus-track" id="susTrack">
           <div class="sus-card"><img
-              src="https://brandaid.digital/proposals/jac-olivol/new/html/images/thoughtful-production.webp" alt="">
+              src="./images/thoughtful-production.webp" alt="">
             <div class="sus-cc">
               <h5>Responsible sourcing</h5>
               <p>Choosing ingredients and materials with care, with a focus on quality, traceability and responsible procurement.</p>
             </div>
           </div>
           <div class="sus-card"><img
-              src="https://brandaid.digital/proposals/jac-olivol/new/html/images/sustainability-img1.webp" alt="">
+              src="./images/sustainability-img1.webp" alt="">
             <div class="sus-cc">
               <h5>Reducing waste</h5>
               <p>Working towards more efficient use of materials and minimizing waste across our operations.</p>
             </div>
           </div>
           <div class="sus-card"><img
-              src="https://brandaid.digital/proposals/jac-olivol/new/html/images/ses-growing.webp" alt="">
+              src="./images/ses-growing.webp" alt="">
             <div class="sus-cc">
               <h5>Thoughtful production</h5>
               <p>Balancing growing production needs with responsible processes and long-term environmental consideration.</p>
             </div>
           </div>
-          <div class="sus-card"><img src="https://brandaid.digital/proposals/jac-olivol/new/html/images/smarter-distribution.webp"
+          <div class="sus-card"><img src="./images/smarter-distribution.webp"
               alt="">
             <div class="sus-cc">
               <h5>Smarter distribution</h5>
@@ -263,7 +263,7 @@
             </div>
           </div>
           <!-- <div class="sus-card"><img
-              src="https://brandaid.digital/proposals/jac-olivol/new/html/images/sustainability-advanced-extraction.webp" alt="">
+              src="./images/sustainability-advanced-extraction.webp" alt="">
             <div class="sus-cc">
               <h5>Powered by clean energy</h5>
               <p>Shifting to renewable sources across our production facilities.</p>
@@ -282,7 +282,7 @@
       <div class="glance-imgbg"></div>
       <div class="glance-yt-bg">
         <!-- <video autoplay muted loop playsinline preload="auto" class="glance-bg-video">
-          <source src="https://brandaid.digital/proposals/jac-olivol/new/html/videos/videoplayback-bg.mp4"
+          <source src="./videos/videoplayback-bg.mp4"
             type="video/mp4">
         </video> -->
         <img src="./images/glance-bg.webp" alt="" class="glance-bg-img">
@@ -367,10 +367,10 @@
             </div>
           </div>
           <!-- <div class="event-card" data-type="video"
-            data-src="https://brandaid.digital/proposals/jac-olivol/new/html/videos/videoplayback.mp4">
+            data-src="./videos/videoplayback.mp4">
             <div class="event-media">
               <video autoplay muted loop playsinline>
-                <source src="https://brandaid.digital/proposals/jac-olivol/new/html/videos/videoplayback.mp4"
+                <source src="./videos/videoplayback.mp4"
                   type="video/mp4">
               </video>
               <span class="event-badge">Video</span>
@@ -425,7 +425,7 @@
         <div class="career-img">
           <div class="dot-pattern" style="right:0;z-index:1;bottom:-108px;"></div>
           <div class="dot-pattern" style="top:140px;right:500px;"></div>
-          <img src="https://brandaid.digital/proposals/jac-olivol/new/html/images/careers.webp" alt="Careers"
+          <img src="./images/careers.webp" alt="Careers"
             onerror="this.style.display='none'">
         </div>
       </div>

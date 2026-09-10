@@ -1,5 +1,5 @@
      .contact-hero {
-      background-image: url(https://brandaid.digital/proposals/jac-olivol/new/html/images/hero-bg.webp);
+      background-image: url(../images/hero-bg.webp);
     }
 
     /* ── CONTACT MAIN LAYOUT ── */
@@ -334,7 +334,7 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: url('https://brandaid.digital/proposals/jac-olivol/new/html/images/hero-bg.webp') center/cover;
+      background: url('../images/hero-bg.webp') center/cover;
       opacity: .12;
     }
 

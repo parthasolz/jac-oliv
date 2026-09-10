@@ -591,7 +591,7 @@ body {
    PAGE 1 — ABOUT US / OUR STORY
 ═══════════════════════════════════════════ */
 .about-hero {
-    background-image: url('https://brandaid.digital/proposals/jac-olivol/new/html/images/hero-bg.webp');
+    background-image: url('../images/hero-bg.webp');
 }
 
 .story-split {
@@ -861,7 +861,7 @@ body {
    PAGE 2 — OUR PHILOSOPHY
 ═══════════════════════════════════════════ */
 .phil-hero {
-    background-image: url('https://brandaid.digital/proposals/jac-olivol/new/html/images/hero-bg2.webp');
+    background-image: url('../images/hero-bg2.webp');
 }
 
 .phil-split {
@@ -1067,7 +1067,7 @@ body {
    PAGE 3 — BRAND HISTORY
 ═══════════════════════════════════════════ */
 .hist-hero {
-    background-image: url('https://brandaid.digital/proposals/jac-olivol/new/html/images/history.webp');
+    background-image: url('../images/history.webp');
 }
 
 .timeline {
@@ -1269,7 +1269,7 @@ body {
    PAGE 4 — LEADERSHIP
 ═══════════════════════════════════════════ */
 .lead-hero {
-    background-image: url('https://brandaid.digital/proposals/jac-olivol/new/html/images/sus-protect.webp');
+    background-image: url('../images/sus-protect.webp');
 }
 
 .lead-grid {
@@ -1523,7 +1523,7 @@ section.sec.sec-cream-border {
    PAGE 5 — BRANDS
 ═══════════════════════════════════════════ */
 .brands-hero {
-    background-image: url('https://brandaid.digital/proposals/jac-olivol/new/html/images/ses-growing.webp');
+    background-image: url('../images/ses-growing.webp');
 }
 
 .brands-intro {
@@ -1731,7 +1731,7 @@ section.sec.sec-cream-border {
    PAGE 6 — SOCIAL IMPACT
 ═══════════════════════════════════════════ */
 .social-hero {
-    background-image: url('https://brandaid.digital/proposals/jac-olivol/new/html/images/latest-community.webp');
+    background-image: url('../images/latest-community.webp');
 }
 
 .impact-split {

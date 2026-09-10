@@ -1,74 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex, nofollow">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap"
-    rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet" href="css/sustainability-and-impact.css">
-  <title>Jac Olivol — Social Impact</title>
+$page_title  = 'Jac Olivol — Sustainability & Impact';
+$active_menu = 'sustainability-and-impact';
+$page_css    = 'sustainability-and-impact.css';
 
-</head>
+require_once __DIR__ . '/header-inner.php';
 
-<body>
-
-  <!-- NAVBAR -->
-  <nav class="navbar-custom" id="mainNav">
-    <div class="container d-flex align-items-center justify-content-between">
-      <a href="./" class="logo-box">
-        <img src="https://brandaid.digital/proposals/jac-olivol/new/html/images/jack-olivol.webp" alt="Jac Olivol">
-      </a>
-      <ul class="navbar-nav d-none d-lg-flex flex-row align-items-center">
-        <li class="nav-item has-dd">
-          <a class="nav-link" href="#">About Us <i class="fas fa-chevron-down arr-ic"></i></a>
-          <div class="dropdown-menu">
-            <a href="about">Our Story</a>
-            <a href="vision-legacy">Vision & Legacy</a>
-            <a href="leadership">Leadership</a>
-            <a href="https://brandaid.digital/proposals/jac-olivol/new/html/index#global-presence">Global
-              Presence</a>
-          </div>
-        </li>
-        <li class="nav-item"><a class="nav-link" href="brands">Our Brands</a></li>
-        <li class="nav-item"><a class="nav-link" href="philosophy">Our Philosophy</a></li>
-        <!-- <li class="nav-item"><a class="nav-link" href="#">Innovation</a></li>
-        <li class="nav-item"><a class="nav-link nav-sep" style="padding-right:4px;" href="#">Sustainability</a></li> -->
-        <li class="nav-item"><a class="nav-link nav-sep active-tab" style="padding-right:4px;"
-            href="sustainability-and-impact">Sustainability &
-            Impact</a>
-        </li>
-        <li class="nav-item"><a class="nav-link" href="careers">Careers</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
-      </ul>
-      <button class="d-lg-none" id="mobToggle" style="background:none;border:none;color:#fff;font-size:21px;">
-        <i class="fas fa-bars"></i>
-      </button>
-    </div>
-    <div id="mobMenu" style="display:none;background:#080808;border-top:1px solid #181818;">
-      <div class="mob-item" data-dd="1">
-        <a href="#" class="mob-link">About Us<i class="fas fa-chevron-down arr-ic" style="font-size:10px;"></i></a>
-        <div class="mob-sub">
-          <a href="about">Our Story</a>
-          <a href="vision-legacy">Vision & Legacy</a>
-          <a href="leadership">Leadership</a>
-          <a href="https://brandaid.digital/proposals/jac-olivol/new/html/index#global-presence">Global
-            Presence</a>
-        </div>
-      </div>
-      <div class="mob-item"><a href="brands" class="mob-link">Our Brands</a></div>
-      <div class="mob-item"><a href="philosophy" class="mob-link">Our Philosophy</a></div>
-      <div class="mob-item"><a href="sustainability-and-impact" class="mob-link">Sustainability & Impact</a></div>
-      <div class="mob-item"><a href="careers" class="mob-link">Careers</a></div>
-      <div class="mob-item"><a href="contact" class="mob-link">Contact Us</a></div>
-    </div>
-  </nav>
+?>
 
   <!-- PAGE HERO -->
   <div class="page-hero">
@@ -91,11 +29,11 @@
       <div class="commit-grid">
         <div class="commit-visual reveal-l">
           <img class="commit-img-main"
-            src="https://brandaid.digital/proposals/jac-olivol/new/html/images/latest-community.webp"
+            src="./images/latest-community.webp"
             alt="Community Care"
             onerror="this.src='https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=800&auto=format&fit=crop'">
           <img class="commit-img-float"
-            src="https://brandaid.digital/proposals/jac-olivol/new/html/images/latest-ethical.webp" alt="Ethical"
+            src="./images/latest-ethical.webp" alt="Ethical"
             onerror="this.src='https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=400&auto=format&fit=crop'">
         </div>
         <div class="commit-txt reveal-r">
@@ -126,7 +64,7 @@
       <!-- Row 1 — image left -->
       <div class="impact-row reveal">
         <div class="ia-img">
-          <img src="https://brandaid.digital/proposals/jac-olivol/new/html/images/consumer-wellbeing.jpeg"
+          <img src="./images/consumer-wellbeing.jpeg"
             alt="Consumer Wellbeing"
             onerror="this.src='https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=900&auto=format&fit=crop'">
           <div class="ia-img-overlay"></div>
@@ -147,7 +85,7 @@
       <!-- Row 2 — image right -->
       <div class="impact-row alt reveal">
         <div class="ia-img">
-          <img src="https://brandaid.digital/proposals/jac-olivol/new/html/images/ethical-manufacturing.jpeg"
+          <img src="./images/ethical-manufacturing.jpeg"
             alt="Ethical Manufacturing"
             onerror="this.src='https://images.unsplash.com/photo-1559757175-0eb30cd8c063?q=80&w=900&auto=format&fit=crop'">
           <div class="ia-img-overlay"></div>
@@ -168,7 +106,7 @@
       <!-- Row 3 — image left -->
       <div class="impact-row reveal">
         <div class="ia-img">
-          <img src="https://brandaid.digital/proposals/jac-olivol/new/html/images/community-impact.jpeg"
+          <img src="./images/community-impact.jpeg"
             alt="Community Impact"
             onerror="this.src='https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=900&auto=format&fit=crop'">
           <div class="ia-img-overlay"></div>
@@ -189,7 +127,7 @@
       <!-- Row 4 — image right -->
       <div class="impact-row alt reveal">
         <div class="ia-img">
-          <img src="https://brandaid.digital/proposals/jac-olivol/new/html/images/responsible-growth.jpeg"
+          <img src="./images/responsible-growth.jpeg"
             alt="Responsible Growth"
             onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=900&auto=format&fit=crop'">
           <div class="ia-img-overlay"></div>
@@ -218,7 +156,7 @@
         <div class="pstrip-item reveal" data-d="1">
           <div style="overflow:hidden;border-radius:0 40px 40px 40px;margin-bottom:28px;">
             <img class="pstrip-img"
-              src="https://brandaid.digital/proposals/jac-olivol/new/html/images/Cruelty-free.webp"
+              src="./images/Cruelty-free.webp"
               alt="Cruelty-Free"
               onerror="this.src='https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=600&auto=format&fit=crop'">
           </div>
@@ -229,7 +167,7 @@
         <div class="pstrip-item reveal" data-d="2">
           <div style="overflow:hidden;border-radius:0 40px 40px 40px;margin-bottom:28px;">
             <img class="pstrip-img"
-              src="https://brandaid.digital/proposals/jac-olivol/new/html/images/Mindful-ingredients.webp"
+              src="./images/Mindful-ingredients.webp"
               alt="Mindful Ingredients"
               onerror="this.src='https://images.unsplash.com/photo-1582560475093-ba66accbc424?q=80&w=600&auto=format&fit=crop'">
           </div>
@@ -240,7 +178,7 @@
         <div class="pstrip-item reveal" data-d="3">
           <div style="overflow:hidden;border-radius:0 40px 40px 40px;margin-bottom:28px;">
             <img class="pstrip-img"
-              src="https://brandaid.digital/proposals/jac-olivol/new/html/images/clean-manufacturing.webp"
+              src="./images/clean-manufacturing.webp"
               alt="Clean Manufacturing"
               onerror="this.src='https://images.unsplash.com/photo-1613994515046-67ab4b9bd27c?q=80&w=600&auto=format&fit=crop'">
           </div>

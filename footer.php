@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row footer_wrapper_">
             <div class="">
-                <div class="flogo"><img src="https://brandaid.digital/proposals/jac-olivol/new/html/images/jack-olivol.webp"
+                <div class="flogo"><img src="./images/jack-olivol.webp"
                         alt="Jac Olivol"></div>
                 <p class="ftext">Rooted in Ayurvedic wisdom since the 1960s, Jac Olivol blends heritage formulations with
                     modern science for holistic body care.</p>

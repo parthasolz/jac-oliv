@@ -1,49 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
+$page_title  = 'Jac Olivol — Contact Us';
+$active_menu = 'contact';
+$page_css    = 'contact.css';
 
-  <meta charset="UTF-8">
+require_once __DIR__ . '/header-inner.php';
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <meta name="robots" content="noindex, nofollow">
-
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  >
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap"
-    rel="stylesheet"
-  >
-
-  <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    rel="stylesheet"
-  >
-
-  <link
-    rel="icon"
-    type="image/x-icon"
-    href="favicon.ico"
-  >
-
-  <link
-    rel="stylesheet"
-    href="css/custom.css"
-  >
-
-  <link
-    rel="stylesheet"
-    href="css/contact.css"
-  >
-
-  <title>Jac Olivol — Contact Us</title>
-
-
-  <style>
+?>
+<style>
 
     /* =========================================================
        REQUIRED STAR
@@ -164,25 +128,10 @@
 
   </style>
 
-</head>
-
-
-<body>
-
-
-  <!-- =========================================================
-       NAVBAR
-  ========================================================= -->
-
-  <nav
-    class="navbar-custom"
-    id="mainNav"
-  >
-
     <div class="container d-flex align-items-center justify-content-between">
 
       <a href="./" class="logo-box">
-        <img src="https://brandaid.digital/proposals/jac-olivol/new/html/images/jack-olivol.webp" alt="Jac Olivol">
+        <img src="./images/jack-olivol.webp" alt="Jac Olivol">
       </a>
 
 
@@ -207,7 +156,7 @@
               Leadership
             </a>
 
-            <a href="https://brandaid.digital/proposals/jac-olivol/new/html/#global-presence">
+            <a href="./#global-presence">
               Global Presence
             </a>
 
@@ -335,7 +284,7 @@
             Leadership
           </a>
 
-          <a href="https://brandaid.digital/proposals/jac-olivol/new/html/#global-presence">
+          <a href="./#global-presence">
             Global Presence
           </a>
 
