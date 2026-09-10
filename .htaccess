@@ -1,0 +1,38 @@
+RewriteEngine On
+
+# =========================================================
+# CONTACT
+# /contact.php -> /contact
+# =========================================================
+
+RewriteCond %{THE_REQUEST} \s/+contact\.php(?:[\s?]|$) [NC]
+RewriteRule ^contact\.php$ /contact [R=301,L,NE]
+
+# /contact -> contact.php
+RewriteRule ^contact/?$ contact.php [L]
+
+
+# =========================================================
+# CAREERS
+# /careers.php -> /careers
+# =========================================================
+
+RewriteCond %{THE_REQUEST} \s/+careers\.php(?:[\s?]|$) [NC]
+RewriteRule ^careers\.php$ /careers [R=301,L,NE]
+
+# /careers -> careers.php
+RewriteRule ^careers/?$ careers.php [L]
+
+
+# =========================================================
+# ABOUT
+# /about -> about.php
+# =========================================================
+
+RewriteRule ^about/?$ about.php [L]
+RewriteRule ^brands/?$ brands.php [L]
+RewriteRule ^vision-legacy/?$ vision-legacy.php [L]
+RewriteRule ^leadership/?$ leadership.php [L]
+RewriteRule ^philosophy/?$ philosophy.php [L]
+RewriteRule ^sustainability-and-impact/?$ sustainability-and-impact.php [L]
+RewriteRule ^/?$ index.php [L]
