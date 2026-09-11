@@ -23,5 +23,3 @@ Thumbs.db
 *.bak
 *.tmp
 *~
-.github/*
-.github/workflows/*
