@@ -1,0 +1,25 @@
+# Composer dependencies
+/vendor/
+
+# Uploads and user-generated files
+/uploads/resumes/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment and local config
+.env
+.env.*
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Backup/temporary files
+*.bak
+*.tmp
+*~
