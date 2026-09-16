@@ -27,9 +27,9 @@ require __DIR__ . '/vendor/autoload.php';
 // $dbPass = '';
 
 $dbHost = 'localhost';
-$dbName = 'u959656367_dbjac';
-$dbUser = 'u959656367_unjac';
-$dbPass = '>fU5m9>E3fk';
+$dbName = 'jacolivol';
+$dbUser = 'root';
+$dbPass = 'AA^Gckq2xyfjEJ4h';
 
 
 /*
