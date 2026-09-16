@@ -285,3 +285,18 @@ require_once __DIR__ . '/header-inner.php';
 
 <?php include 'footer.php'; ?>
 <script src="js/catalogue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    const bfToggle = document.getElementById("bfToggle");
+    const bfContent = document.getElementById("bfContent");
+    const bfIcon = document.getElementById("bfIcon");
+
+    bfToggle.addEventListener("click", function () {
+      bfContent.classList.toggle("show");
+      bfIcon.classList.toggle("rotate");
+    });
+  </script>
+  </body>
+
+</html>
