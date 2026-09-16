@@ -42,7 +42,7 @@ $dbPass = '>fU5m9>E3fk';
 $senderEmail = 'noreply@jacolivol.com';
 
 // Email where contact messages will be received
-$adminEmail = 'contact@jacolivol.com';
+$adminEmail = 'prakash.infotechsolz@gmail.com';
 
 
 /*
