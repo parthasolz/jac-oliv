@@ -637,7 +637,7 @@ try {
                             ">
 
                             <img
-                                src="https://jacolivolgroup.com/images/jack-olivol.webp"
+                                src="https://jacolivol.com/images/jack-olivol.webp"
                                 alt="Jac Olivol"
                                 style="
                                     max-width:220px;

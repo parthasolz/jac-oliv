@@ -20,9 +20,9 @@ require __DIR__ . '/vendor/autoload.php';
 // $dbPass = '';
 
 $dbHost = 'localhost';
-$dbName = 'u959656367_dbjac';
-$dbUser = 'u959656367_unjac';
-$dbPass = '>fU5m9>E3fk';
+$dbName = 'jacolivol';
+$dbUser = 'root';
+$dbPass = 'AA^Gckq2xyfjEJ4h';
 
 /*
 |--------------------------------------------------------------------------
@@ -34,7 +34,7 @@ $dbPass = '>fU5m9>E3fk';
 $senderEmail = 'noreply@jacolivol.com';
 
 // Email where job applications will be received
-$adminEmail = 'hr@jacolivol.com';
+$adminEmail = 'prakash.infotechsolz@gmail.com';
 
 
 /*
@@ -770,7 +770,7 @@ try {
                             \">
 
                             <img
-                                src=\"https://jacolivolgroup.com/images/jack-olivol.webp\"
+                                src=\"https://jacolivol.com/images/jack-olivol.webp\"
                                 alt=\"Jac Olivol\"
                                 style=\"
                                     max-width:220px;
