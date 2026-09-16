@@ -34,7 +34,7 @@ $dbPass = 'AA^Gckq2xyfjEJ4h';
 $senderEmail = 'noreply@jacolivol.com';
 
 // Email where job applications will be received
-$adminEmail = 'prakash.infotechsolz@gmail.com';
+$adminEmail = 'hr@jacolivol.com';
 
 
 /*
