@@ -879,19 +879,19 @@ require_once __DIR__ . '/header-inner.php';
 
           <div class="quick-contact">
             <!-- PHONE -->
-            <a class="qc-item" href="tel:+913322657890">
+            <a class="qc-item" href="tel:+91332236976">
               <div class="qc-icon">
-                <i class="fas fa-phone"></i>
+                  <i class="fas fa-phone"></i>
               </div>
 
               <div class="qc-label">
-                Call Us
+                  Call Us
               </div>
 
               <div class="qc-val">
-                +91 33 2265 7890
+                  033 223 6976
               </div>
-            </a>
+          </a>
 
             <!-- EMAIL -->
             <a class="qc-item" href="mailto:contact@jacolivol.com" target="_blank">
