@@ -879,7 +879,7 @@ require_once __DIR__ . '/header-inner.php';
 
           <div class="quick-contact">
             <!-- PHONE -->
-            <a class="qc-item" href="tel:+91332236976">
+            <a class="qc-item" href="tel:+913322369376">
               <div class="qc-icon">
                   <i class="fas fa-phone"></i>
               </div>
@@ -889,7 +889,7 @@ require_once __DIR__ . '/header-inner.php';
               </div>
 
               <div class="qc-val">
-                  033 223 6976
+                  +91 33 2236 9376
               </div>
           </a>
 
