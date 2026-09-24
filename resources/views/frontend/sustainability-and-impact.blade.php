@@ -1,0 +1,435 @@
+@php
+    $page_title  = 'Jac Olivol — Sustainability & Impact';
+    $active_menu = 'sustainability-and-impact';
+    $page_css    = 'sustainability-and-impact.css';
+@endphp
+
+@include('frontend.layouts.header')
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+
+    <div class="page-hero-bg social-hero"></div>
+    <div class="page-hero-overlay"></div>
+
+    <div class="dot-pattern" style="bottom:130px;right:32px;z-index:3;"></div>
+
+    <div class="page-hero-content">
+
+        <p class="hero-eyebrow">Social Impact</p>
+
+        <h1>
+            Care that stays<br>
+            <span class="gold">conscious and kind</span>
+        </h1>
+
+        <p class="lead-txt">
+            Creating with integrity, ensuring what reaches our users is not only effective,
+            but something that feels right to use every day.
+        </p>
+
+    </div>
+
+    <div class="hero-curve">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path
+                d="M0,60 C480,130 960,130 1440,60 L1440,120 L0,120 Z"
+                fill="#F4EFE6"
+            />
+        </svg>
+    </div>
+
+</div>
+
+
+<!-- COMMITMENT SECTION -->
+<section class="commit-section">
+
+    <div class="container" style="position:relative;z-index:2;">
+
+        <div class="commit-grid">
+
+            <div class="commit-visual reveal-l">
+
+                <img
+                    class="commit-img-main"
+                    src="{{ asset('images/latest-community.webp') }}"
+                    alt="Community Care"
+                >
+
+                <img
+                    class="commit-img-float"
+                    src="{{ asset('images/latest-ethical.webp') }}"
+                    alt="Ethical"
+                >
+
+            </div>
+
+
+            <div class="commit-txt reveal-r">
+
+                <p class="eyebrow">Our Commitment</p>
+
+                <h2>
+                    Quality is not just something we check.
+                    It's something we
+                    <span>genuinely care about</span>.
+                </h2>
+
+                <div class="gold-divider"></div>
+
+                <div class="commit-body">
+
+                    <p>
+                        At Jac Olivol Group, every product is created with attention and intention,
+                        from the ingredients chosen to the way each formula comes together.
+                    </p>
+
+                    <p>
+                        Care should feel right not just on the skin, but in the mind as well.
+                        That is why our manufacturing processes are clean, mindful,
+                        and proudly cruelty-free.
+                    </p>
+
+                    <p>
+                        It is about being conscious in everything that is done creating with
+                        integrity and ensuring what reaches our users is not only effective,
+                        but something that feels right to use every day.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- OUR IMPACT AREAS -->
+<section class="impact-areas-sec">
+
+    <div class="container">
+
+        <div class="impact-areas-header reveal">
+
+            <p class="eyebrow center">Our Impact Areas</p>
+
+            <h2 class="section-title light" style="text-align:center;">
+                Four Ways We <span class="gold">Give Back</span>
+            </h2>
+
+        </div>
+
+
+        <!-- Row 1 — image left -->
+        <div class="impact-row reveal">
+
+            <div class="ia-img">
+
+                <img
+                    src="{{ asset('images/consumer-wellbeing.jpeg') }}"
+                    alt="Consumer Wellbeing"
+                >
+
+                <div class="ia-img-overlay"></div>
+
+                <div class="ia-tag-badge">
+                    Consumer Wellbeing
+                </div>
+
+                <div class="ia-num-big">01</div>
+
+            </div>
+
+            <div class="ia-txt">
+
+                <div class="ia-eyebrow">
+                    Impact Area 01
+                </div>
+
+                <h3>
+                    Safe, Honest Products<br>
+                    for <em>Every Home</em>
+                </h3>
+
+                <div class="ia-divider"></div>
+
+                <p>
+                    Quality embedded in every stage of creation. From ingredients to formula
+                    to shelf, we ensure what reaches your home is safe, herbal, and skin-friendly.
+                    Every bottle carries our promise of honest care, backed by decades of trusted
+                    formulation.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Row 2 — image right -->
+        <div class="impact-row alt reveal">
+
+            <div class="ia-img">
+
+                <img
+                    src="{{ asset('images/ethical-manufacturing.jpeg') }}"
+                    alt="Ethical Manufacturing"
+                >
+
+                <div class="ia-img-overlay"></div>
+
+                <div class="ia-tag-badge">
+                    Ethical Manufacturing
+                </div>
+
+                <div class="ia-num-big">02</div>
+
+            </div>
+
+            <div class="ia-txt">
+
+                <div class="ia-eyebrow">
+                    Impact Area 02
+                </div>
+
+                <h3>
+                    Cruelty-Free.<br>
+                    <em>Clean. Mindful.</em>
+                </h3>
+
+                <div class="ia-divider"></div>
+
+                <p>
+                    Proudly cruelty-free, committed to clean hygiene standards. What we make
+                    to nurture lives should itself be made without causing harm. Our production
+                    facilities uphold the highest standards of ethical and responsible
+                    manufacturing.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Row 3 — image left -->
+        <div class="impact-row reveal">
+
+            <div class="ia-img">
+
+                <img
+                    src="{{ asset('images/community-impact.jpeg') }}"
+                    alt="Community Impact"
+                >
+
+                <div class="ia-img-overlay"></div>
+
+                <div class="ia-tag-badge">
+                    Community Impact
+                </div>
+
+                <div class="ia-num-big">03</div>
+
+            </div>
+
+            <div class="ia-txt">
+
+                <div class="ia-eyebrow">
+                    Impact Area 03
+                </div>
+
+                <h3>
+                    Supporting<br>
+                    <em>Local Livelihoods</em>
+                </h3>
+
+                <div class="ia-divider"></div>
+
+                <p>
+                    We prioritise local employment, support supplier ecosystems, and ensure
+                    economic value flows back into the communities that help build it. Growth
+                    that is shared is growth that lasts. That belief shapes every partnership
+                    we forge.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Row 4 — image right -->
+        <div class="impact-row alt reveal">
+
+            <div class="ia-img">
+
+                <img
+                    src="{{ asset('images/responsible-growth.jpeg') }}"
+                    alt="Responsible Growth"
+                >
+
+                <div class="ia-img-overlay"></div>
+
+                <div class="ia-tag-badge">
+                    Responsible Growth
+                </div>
+
+                <div class="ia-num-big">04</div>
+
+            </div>
+
+            <div class="ia-txt">
+
+                <div class="ia-eyebrow">
+                    Impact Area 04
+                </div>
+
+                <h3>
+                    Building Sustainable<br>
+                    <em>Long-Term Value</em>
+                </h3>
+
+                <div class="ia-divider"></div>
+
+                <p>
+                    Conscious growth means choosing the right path, not just the fastest one,
+                    while staying true to authenticity, care, and trust over six decades.
+                    Every decision we make considers not just today, but the legacy we are
+                    building for future generations.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- OUR PRINCIPLES -->
+<section class="principles-strip-sec">
+
+    <div class="container">
+
+        <div
+            style="text-align:center;margin-bottom:60px;"
+            class="reveal"
+        >
+
+            <p class="eyebrow center">
+                Our Principles
+            </p>
+
+            <h2
+                class="section-title light"
+                style="text-align:center;"
+            >
+                The Way We <span class="gold">Do Things</span>
+            </h2>
+
+        </div>
+
+
+        <div class="principles-strip-grid">
+
+
+            <!-- Principle 01 -->
+            <div class="pstrip-item reveal" data-d="1">
+
+                <div
+                    style="overflow:hidden;border-radius:0 40px 40px 40px;margin-bottom:28px;"
+                >
+
+                    <img
+                        class="pstrip-img"
+                        src="{{ asset('images/Cruelty-free.webp') }}"
+                        alt="Cruelty-Free"
+                    >
+
+                </div>
+
+                <div class="pstrip-gold-line"></div>
+
+                <h4>Cruelty-Free</h4>
+
+                <p>
+                    Our products are never tested on animals. Care should not come
+                    at the cost of harm to anyone.
+                </p>
+
+            </div>
+
+
+            <!-- Principle 02 -->
+            <div class="pstrip-item reveal" data-d="2">
+
+                <div
+                    style="overflow:hidden;border-radius:0 40px 40px 40px;margin-bottom:28px;"
+                >
+
+                    <img
+                        class="pstrip-img"
+                        src="{{ asset('images/Mindful-ingredients.webp') }}"
+                        alt="Mindful Ingredients"
+                    >
+
+                </div>
+
+                <div class="pstrip-gold-line"></div>
+
+                <h4>Mindful Ingredients</h4>
+
+                <p>
+                    Every ingredient is chosen with intention. No unnecessary
+                    additives, no harmful shortcuts.
+                </p>
+
+            </div>
+
+
+            <!-- Principle 03 -->
+            <div class="pstrip-item reveal" data-d="3">
+
+                <div
+                    style="overflow:hidden;border-radius:0 40px 40px 40px;margin-bottom:28px;"
+                >
+
+                    <img
+                        class="pstrip-img"
+                        src="{{ asset('images/clean-manufacturing.webp') }}"
+                        alt="Clean Manufacturing"
+                    >
+
+                </div>
+
+                <div class="pstrip-gold-line"></div>
+
+                <h4>Clean Manufacturing</h4>
+
+                <p>
+                    Hygienic, responsible, and built to the highest standards
+                    because quality starts at the source.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+@include('frontend.layouts.footer')
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="{{ asset('js/custom.js') }}"></script>
+
+</body>
+</html>
