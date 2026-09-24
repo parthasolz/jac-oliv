@@ -12,6 +12,42 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="css/index.css">
   <title>Jac Olivol</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Jac Olivol",
+    "image": "https://jacolivol.com/images/jack-olivol.webp",
+    "@id": "",
+    "url": "https://jacolivol.com/",
+    "telephone": "+913322369376",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1, Lower Rawdon St, opposite Premia - Kolkata - Sri Krishna Automotive - Hero Motocorp, Sreepally, Ballygunge,",
+      "addressLocality": "Kolkata",
+      "postalCode": "700020",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 22.54062977477615,
+      "longitude": 88.35689811349178
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "10:00",
+      "closes": "19:00"
+    } 
+  }
+  </script>  
  
 </head>
 
