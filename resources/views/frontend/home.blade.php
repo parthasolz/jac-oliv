@@ -12,41 +12,46 @@
   <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
   <link rel="stylesheet" href="{{ asset('css/index.css') }}">
   <title>Jac Olivol</title>
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Jac Olivol",
-        "image": "https://jacolivol.com/images/jack-olivol.webp",
-        "@id": "",
-        "url": "https://jacolivol.com/",
-        "telephone": "+913322369376",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "1, Lower Rawdon St, opposite Premia - Kolkata - Sri Krishna Automotive - Hero Motocorp, Sreepally, Ballygunge,",
-            "addressLocality": "Kolkata",
-            "postalCode": "700020",
-            "addressCountry": "IN"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 22.54062977477615,
-            "longitude": 88.35689811349178
-        },
-        "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-            ],
-            "opens": "10:00",
-            "closes": "19:00"
-        }
-        }
-    </script>
+  <meta property="og:title" content="Jac Olivol">
+  <meta property="og:description" content="Rooted in Ayurvedic wisdom, Jac Olivol brings purposeful wellness, care, and innovation to everyday life.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ url('/') }}">
+  <meta property="og:image" content="{{ asset('images/jack-olivol.webp') }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jac Olivol">
+  <meta name="twitter:description" content="Rooted in Ayurvedic wisdom, Jac Olivol brings purposeful wellness, care, and innovation to everyday life.">
+  <meta name="twitter:image" content="{{ asset('images/jack-olivol.webp') }}">
+  <script type="application/ld+json">
+    {{ json_encode([
+        '@context' => 'https://schema.org',
+        '@type' => 'LocalBusiness',
+        'name' => 'Jac Olivol',
+        'image' => 'https://jacolivol.com/images/jack-olivol.webp',
+        '@id' => '',
+        'url' => 'https://jacolivol.com/',
+        'telephone' => '+913322369376',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '1, Lower Rawdon St, opposite Premia - Kolkata - Sri Krishna Automotive - Hero Motocorp, Sreepally, Ballygunge,',
+            'addressLocality' => 'Kolkata',
+            'postalCode' => '700020',
+            'addressCountry' => 'IN',
+        ],
+        'geo' => [
+            '@type' => 'GeoCoordinates',
+            'latitude' => 22.54062977477615,
+            'longitude' => 88.35689811349178,
+        ],
+        'openingHoursSpecification' => [
+            '@type' => 'OpeningHoursSpecification',
+            'dayOfWeek' => ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+            'opens' => '10:00',
+            'closes' => '19:00',
+        ],
+    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) }}
+  </script>
 </head>
 
 <body>
