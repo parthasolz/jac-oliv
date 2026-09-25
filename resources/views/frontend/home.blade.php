@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="XPU8cYawQv7tzOvZhypx31tIQpfHmGQM4mQDd5c5rP0" />
   <meta name="robots" content="index, follow">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -11,7 +12,41 @@
   <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
   <link rel="stylesheet" href="{{ asset('css/index.css') }}">
   <title>Jac Olivol</title>
-
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Jac Olivol",
+        "image": "https://jacolivol.com/images/jack-olivol.webp",
+        "@id": "",
+        "url": "https://jacolivol.com/",
+        "telephone": "+913322369376",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1, Lower Rawdon St, opposite Premia - Kolkata - Sri Krishna Automotive - Hero Motocorp, Sreepally, Ballygunge,",
+            "addressLocality": "Kolkata",
+            "postalCode": "700020",
+            "addressCountry": "IN"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 22.54062977477615,
+            "longitude": 88.35689811349178
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+        }
+        }
+    </script>
 </head>
 
 <body>
