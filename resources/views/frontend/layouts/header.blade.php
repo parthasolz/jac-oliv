@@ -21,6 +21,7 @@
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
 
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+    <link rel="llms" href="https://jacolivol.com/llms.txt">
 
     <!-- Page Specific CSS -->
 
