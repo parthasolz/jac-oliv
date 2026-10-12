@@ -4,8 +4,7 @@
             <div class="">
                 <div class="flogo"><img src="./images/jack-olivol.webp"
                         alt="Jac Olivol"></div>
-                <p class="ftext">Rooted in Ayurvedic wisdom since the 1960s, Jac Olivol blends heritage formulations with
-                    modern science for holistic body care.</p>
+                <p class="ftext">Rooted in decades of heritage, Jac Olivol blends time-tested formulations with modern science for holistic personal care.</p>
                 <div class="fsoc">
                     <a href="https://www.facebook.com/jacolivolbodyoil" target="_blank">
                         <i class="fab fa-facebook-f"></i>
