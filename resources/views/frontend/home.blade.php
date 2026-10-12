@@ -11,6 +11,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
   <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+  <link rel="llms" href="https://jacolivol.com/llms.txt">
   <title>Jac Olivol</title>
   <meta property="og:title" content="Jac Olivol">
   <meta property="og:description" content="Rooted in Ayurvedic wisdom, Jac Olivol brings purposeful wellness, care, and innovation to everyday life.">
